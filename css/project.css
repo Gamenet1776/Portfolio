@@ -10,3 +10,10 @@ header {
     background-color: #572353;
     height: 125px;
 }
+
+#block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+}

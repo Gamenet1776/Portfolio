@@ -4,7 +4,7 @@
 
 body {
     background-color: #E6DEEC;
-    cursor: none; /* Hide default cursor globally */
+    cursor: none;
 }
 
 .cursor {
@@ -15,21 +15,17 @@ body {
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    background-color: white;
-    pointer-events: none; 
+    background-color: purple;
+    pointer-events: none;
     transition: transform 0.1s ease;
     transform: translate(-50%, -50%);
-    opacity: 0; 
+    opacity: 0;
 }
 
 .cursor.hover {
-    background-color: purple; 
+    background-color: purple;
 }
 
-header {
-    background-color: #572353;
-    height: 125px;
-}
 
 #titleContain {
     display: flex;
@@ -47,13 +43,14 @@ header {
 .big {
     width: 300px;
 }
+
 .bigger {
     width: 330px;
 }
 
 .home {
-    width:125px;
-    height: 125px;
+    width: 110px;
+    height: 110px;
 }
 
 .hamburger {
@@ -62,4 +59,70 @@ header {
 }
 
 
+
+
+
+
+a:hover {
+    color: #c5c6c7;
+    border-radius: 100%;
+    transition-duration: 0.5s;
+    padding-left: 18px;
+    text-decoration: none;
+
+}
+
+
+.navbar {
+    height: 85px;
+    background-color: #572353;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.menu-toggle {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.hamburger {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 4px 0;
+    transition: transform 0.3s ease;
+}
+
+.menu-items {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    background-color: #333;
+    top: 75px;
+    padding: 10px;
+    z-index: 1;
+}
+
+.menu-items a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 0;
+    transition: color 0.3s ease;
+}
+
+.menu-items a:hover {
+    color: #00bcd4;
+}
+
+.show-menu {
+    display: flex;
+}
+
+
+#homebtn {
+    position: absolute;
+    right: 0;
+}
 

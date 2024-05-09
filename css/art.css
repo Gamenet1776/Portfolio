@@ -4,9 +4,34 @@
 
 body {
     background-color: #E6DEEC;
+    cursor: none; /* Hide default cursor globally */
+}
+
+.cursor {
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: white;
+    pointer-events: none; 
+    transition: transform 0.1s ease;
+    transform: translate(-50%, -50%);
+    opacity: 0; 
+}
+
+.cursor.hover {
+    background-color: purple; 
 }
 
 header {
     background-color: #572353;
     height: 125px;
+}
+
+.photo {
+    width: 400px;
+    height: 490px;
 }

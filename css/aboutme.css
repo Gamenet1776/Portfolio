@@ -101,3 +101,11 @@ a:hover {
 h1 {
     color: white;
      }
+
+.text {
+ display: flex;
+}
+
+.me {
+    display: flex;
+}

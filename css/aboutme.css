@@ -108,11 +108,19 @@ p {
 
 .text {
  display: flex;
- left: 500px;
+ left: 200px;
  margin-top:100px;
- margin-left: 700px ;
+ margin-left: 600px ;
+ margin-right: 25px;
+ position: absolute;
 }
 
 .me {
     display: flex;
+}
+
+.smaller {
+    margin-top: 25px;
+    margin-left: 50px ;
+    height: 900px;
 }

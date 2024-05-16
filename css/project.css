@@ -115,4 +115,33 @@ h1 {
     display: flex;
 } 
 
+p {
+    font-size: 30px;
+}
 
+h3 {
+    font-size: 50px;
+}
+
+body > div {
+    display: flex;
+    width: 100%;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 50px 0
+}
+
+body > div > h3, body > div > img{
+    max-width: 500px;
+}
+
+body > div > p {
+    max-width: 1000px;
+}
+
+body > div > img {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+}

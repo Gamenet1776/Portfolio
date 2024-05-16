@@ -99,3 +99,16 @@ a:hover {
 h1 {
     color: white;
      }
+
+
+#bbl {
+    margin: 35px 0 35px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#bbl img {
+    width: 100%;
+    max-width: 800px;
+}
